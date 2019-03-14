@@ -16,6 +16,7 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
+<<<<<<< HEAD
   new_arr = []
   array.reverse_each {|x| new_arr << x}
   new_arr
@@ -49,3 +50,7 @@ def add_s(array)
     end
   end
 end
+=======
+  array.reverse_each
+end
+>>>>>>> cb72f5ba441f0b11f151b9fec53af75196bc2311
